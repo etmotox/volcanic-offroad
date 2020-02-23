@@ -1,15 +1,20 @@
 body{
-    background-color: rgb(200, 200, 200); 
+    background-color: hsla(35, 100%, 50%, 1);
 }
-#top{
+#title{
     display: flex;
     justify-content: center;
 }
-.top{
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsla(35, 50%, 40%, .5);
+}
+.categories{
     display: flex;
     justify-content: space-evenly;
 }
-article{
+footer{
     display: flex;
     justify-content: space-evenly;
 }
