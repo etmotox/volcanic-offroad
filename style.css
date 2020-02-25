@@ -18,6 +18,10 @@ body{
     display: flex;
     justify-content: center;
 }
+.weekly-title{
+    display: flex;
+    justify-content: center;
+}
 
 
 footer{
