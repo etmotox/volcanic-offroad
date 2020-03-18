@@ -1,5 +1,6 @@
 body{
-    background-color: hsla(35, 100%, 50%, 1);
+    background-color: rgb(24, 18, 30);
+    color: rgb(220, 220, 220);
 }
 #title{
     display: flex;
@@ -8,11 +9,13 @@ body{
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    background-color: hsla(35, 50%, 40%, .5);
+    background-color: rgb(35, 50, 55);
 }
 .categories{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;   
 }
 .highlights{
     display: flex;
@@ -22,8 +25,9 @@ body{
     display: flex;
     justify-content: center;
 }
-
-
+article{
+    background: rgb(152, 75, 67)
+}
 footer{
     display: flex;
     justify-content: space-evenly;
